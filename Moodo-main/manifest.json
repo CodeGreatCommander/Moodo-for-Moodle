@@ -1,0 +1,20 @@
+{
+    "name":"Moodo",
+    "description":"to fill login details in moodle",
+    "manifest_version":3,
+    "permissions":["scripting","tabs","activeTab","cookies"],
+    "version":"1.0.0",
+    "action":{
+        "default_icon":{"16":"Logo.png","24":"Logo.png","32":"Logo.png"},
+        "default_title": "Moodo",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons":{"128":"Logo.png","48":"Logo.png","32":"Logo.png","16":"Logo.png"},
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+      ]
+}
